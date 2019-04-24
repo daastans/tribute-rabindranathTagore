@@ -1,0 +1,79 @@
+/* CSS files add styling rules to your content */
+ @import url('https://fonts.googleapis.com/css?family=Kavivanar|Redressed|Tillana');
+body {
+  font-family: "Tillana", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 4em;
+  background-color:whitesmoke;
+  overflow:auto;
+}
+#main
+{
+  background-color:white;
+  font-family: "Tillana";
+  font-size:13px;
+  height:100%;
+  width:100%;  
+}
+h1
+{
+  font-family: "Redressed";
+}
+footer
+{
+   font-family: "Kavivanar";
+}
+#title
+{
+  font-family: "Redressed";
+  padding:0px 20px 0px 35px;    
+  background-color:whitesmoke;
+  border-radius:5px;
+  position:fixed;
+  top:0px;
+  right:0px;
+  left:0px;
+  
+}
+  #header
+  {
+    text-align:center;
+  }
+  
+#img
+{
+  margin-top:100px;
+  border-color:black;
+  border-width:1px !important;
+  border-style:solid;
+  border-radius:5%;
+}
+  @media (max-width:299){
+      #img
+{
+  margin-top:105px;
+  border-color:black;
+  border-width:1px !important;
+  border-style:solid;
+  border-radius:5%;
+  width:auto;
+}
+  }
+#tribute-info
+ {
+   text-align:justify;
+ }
+  #works
+  {
+    display:flex;
+    }
+  section
+  {
+    float:left;
+    width:50%;
+  }
+  aside
+  {
+    float:right;
+    width:50%;
+    display:flex;
+  }
